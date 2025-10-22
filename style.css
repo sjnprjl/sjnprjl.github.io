@@ -23,7 +23,8 @@ body {
   background-color: var(--bg-color);
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
-  padding: 0 15rem;
+  margin: auto;
+  max-width: calc(min(800px, 80%));
   color: var(--text-color);
 }
 h1 {
